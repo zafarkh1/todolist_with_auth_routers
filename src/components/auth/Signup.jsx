@@ -22,7 +22,6 @@ const Signup = () => {
     }
   };
 
-
   const handleGoogle = async (e) => {
     e.preventDefault();
     try {
@@ -50,14 +49,14 @@ const Signup = () => {
             type="text"
             placeholder="Email"
             onChange={(e) => setEmail(e.target.value)}
-						required
+            required
           />
           <input
             className="w-full mt-2 p-2 border rounded"
             type="password"
             placeholder="Password"
             onChange={(e) => setPassword(e.target.value)}
-						required
+            required
           />
           <button className="w-full mt-4 bg-blue-500 text-white py-2 rounded">
             Sign Up
